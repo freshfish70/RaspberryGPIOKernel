@@ -1,4 +1,4 @@
-CFLAGS=-std=c99
+ccflags-y := -std=gnu99
 obj-m += gpiodriver.o
 gpio_module-obj:= hgpio.o gpiodriver.o
 
