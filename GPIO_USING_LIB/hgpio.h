@@ -1,0 +1,1 @@
+int toggle_output(int gpiopin);
